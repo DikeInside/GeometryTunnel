@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry Tunnel</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <div id="start-screen">
+        <h1>Geometry Tunnel</h1>
+        <p class="blink">CLICK TO START</p>
+    </div>
+    <div id="ui-layer">
+        <div class="hud-top">
+            <div id="score">SCORE: 0</div>
+            <div id="high-score">HIGH: 0</div>
+        </div>
+        <div id="level-display" class="hidden">LEVEL UP!</div>
+        <div id="info">Arrows/WASD to Move | LEVEL <span id="level-value">1</span></div>
+    </div>
+    <div id="canvas-container"></div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
